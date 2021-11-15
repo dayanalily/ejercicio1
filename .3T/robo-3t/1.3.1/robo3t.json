@@ -53,11 +53,202 @@
     "useAdvancedOptions" : false,
     "usePemFile" : false
    },
-   "uuid" : ""
+   "uuid" : "{f00b6e18-de61-4419-ad02-da3d88f7870c}"
+  },
+  {
+   "connectionName" : "New Connection",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "mechanism" : "SCRAM-SHA-1",
+     "userName" : "",
+     "userPasswordEncrypted" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "isReplicaSet" : false,
+   "serverHost" : "localhost",
+   "serverPort" : 27017,
+   "ssh" : {
+    "askPassword" : false,
+    "enabled" : false,
+    "host" : "",
+    "method" : "publickey",
+    "passphraseEncrypted" : "",
+    "port" : 22,
+    "privateKeyFile" : "",
+    "publicKeyFile" : "",
+    "userName" : "",
+    "userPasswordEncrypted" : ""
+   },
+   "ssl" : {
+    "allowInvalidCertificates" : false,
+    "allowInvalidHostnames" : false,
+    "askPassphrase" : false,
+    "caFile" : "",
+    "crlFile" : "",
+    "pemKeyFile" : "",
+    "pemPassPhraseEncrypted" : "",
+    "sslEnabled" : false,
+    "useAdvancedOptions" : false,
+    "usePemFile" : false
+   },
+   "uuid" : "{696fd538-6fb2-44c5-908b-a2e1af28a889}"
+  },
+  {
+   "connectionName" : "regcheq",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : true,
+     "mechanism" : "SCRAM-SHA-1",
+     "userName" : "dbUserMain",
+     "userPasswordEncrypted" : "AwIurxRXP75yG0wcmNaDI/W8xJsY"
+    }
+   ],
+   "defaultDatabase" : "regcheq",
+   "isReplicaSet" : true,
+   "replicaSet" : {
+    "0" : "maincluster-shard-00-01.vztfw.mongodb.net:27017",
+    "1" : "maincluster-shard-00-02.vztfw.mongodb.net:27017",
+    "2" : "maincluster-shard-00-00.vztfw.mongodb.net:27017",
+    "cachedSetName" : "",
+    "readPreference" : 0,
+    "setNameUserEntered" : "atlas-6txa1y-shard-0"
+   },
+   "serverHost" : "maincluster-shard-00-01.vztfw.mongodb.net",
+   "serverPort" : 27017,
+   "ssh" : {
+    "askPassword" : false,
+    "enabled" : false,
+    "host" : "",
+    "method" : "publickey",
+    "passphraseEncrypted" : "",
+    "port" : 22,
+    "privateKeyFile" : "",
+    "publicKeyFile" : "",
+    "userName" : "",
+    "userPasswordEncrypted" : ""
+   },
+   "ssl" : {
+    "allowInvalidCertificates" : true,
+    "allowInvalidHostnames" : false,
+    "askPassphrase" : false,
+    "caFile" : "",
+    "crlFile" : "",
+    "pemKeyFile" : "",
+    "pemPassPhraseEncrypted" : "",
+    "sslEnabled" : true,
+    "useAdvancedOptions" : false,
+    "usePemFile" : false
+   },
+   "uuid" : "{371dba65-290d-4442-ab62-73e312f1e263}"
+  },
+  {
+   "connectionName" : "andrea-db",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : true,
+     "mechanism" : "SCRAM-SHA-1",
+     "userName" : "root",
+     "userPasswordEncrypted" : "AwIaELnAlzrB"
+    }
+   ],
+   "defaultDatabase" : "test",
+   "isReplicaSet" : true,
+   "replicaSet" : {
+    "0" : "ecomercedb-shard-00-01.kvz1m.mongodb.net:27017",
+    "1" : "ecomercedb-shard-00-02.kvz1m.mongodb.net:27017",
+    "2" : "ecomercedb-shard-00-00.kvz1m.mongodb.net:27017",
+    "cachedSetName" : "",
+    "readPreference" : 0,
+    "setNameUserEntered" : "atlas-gz49un-shard-0"
+   },
+   "serverHost" : "ecomercedb-shard-00-01.kvz1m.mongodb.net",
+   "serverPort" : 27017,
+   "ssh" : {
+    "askPassword" : false,
+    "enabled" : false,
+    "host" : "",
+    "method" : "publickey",
+    "passphraseEncrypted" : "",
+    "port" : 22,
+    "privateKeyFile" : "",
+    "publicKeyFile" : "",
+    "userName" : "",
+    "userPasswordEncrypted" : ""
+   },
+   "ssl" : {
+    "allowInvalidCertificates" : true,
+    "allowInvalidHostnames" : false,
+    "askPassphrase" : false,
+    "caFile" : "",
+    "crlFile" : "",
+    "pemKeyFile" : "",
+    "pemPassPhraseEncrypted" : "",
+    "sslEnabled" : true,
+    "useAdvancedOptions" : false,
+    "usePemFile" : false
+   },
+   "uuid" : "{e8dbc0bf-989a-4cd5-a413-de942ada2427}"
+  },
+  {
+   "connectionName" : "New Connection",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : true,
+     "mechanism" : "SCRAM-SHA-1",
+     "userName" : "root",
+     "userPasswordEncrypted" : "AwJBJkY4U6ZENlEs5Z33R6vbv/NC"
+    }
+   ],
+   "defaultDatabase" : "ecomerce",
+   "isReplicaSet" : true,
+   "replicaSet" : {
+    "0" : "ecomercedb-shard-00-01.kvz1m.mongodb.net:27017",
+    "1" : "ecomercedb-shard-00-02.kvz1m.mongodb.net:27017",
+    "2" : "ecomercedb-shard-00-00.kvz1m.mongodb.net:27017",
+    "cachedSetName" : "",
+    "readPreference" : 0,
+    "setNameUserEntered" : "atlas-gz49un-shard-0"
+   },
+   "serverHost" : "ecomercedb-shard-00-01.kvz1m.mongodb.net",
+   "serverPort" : 27017,
+   "ssh" : {
+    "askPassword" : false,
+    "enabled" : false,
+    "host" : "",
+    "method" : "publickey",
+    "passphraseEncrypted" : "",
+    "port" : 22,
+    "privateKeyFile" : "",
+    "publicKeyFile" : "",
+    "userName" : "",
+    "userPasswordEncrypted" : ""
+   },
+   "ssl" : {
+    "allowInvalidCertificates" : true,
+    "allowInvalidHostnames" : false,
+    "askPassphrase" : false,
+    "caFile" : "",
+    "crlFile" : "",
+    "pemKeyFile" : "",
+    "pemPassPhraseEncrypted" : "",
+    "sslEnabled" : true,
+    "useAdvancedOptions" : false,
+    "usePemFile" : false
+   },
+   "uuid" : "{bf260710-68c4-4cf0-a3a7-f07e6fa88259}"
   }
  ],
  "dbVersionsConnected" : [
-  "4.2.8"
+  "4.2.8",
+  "4.4.9",
+  "4.4.6",
+  "4.4.8"
  ],
  "disableConnectionShortcuts" : false,
  "imported" : false,
@@ -78,7 +269,7 @@
   "logs" : false,
   "open_save" : true
  },
- "useHttps" : true,
+ "useHttps" : false,
  "uuidEncoding" : 0,
  "version" : "2.0",
  "viewMode" : 1
